@@ -5,7 +5,7 @@ const NoteState = (props) => {
   const host = "https://inotebookserver-8bgsn8l58-nitin-patils-projects.vercel.app/";
   const notesinitial = [];
   const [notes, setNotes] = useState(notesinitial);
-
+//  hello
   // Get all Notes
   const getnotes = async () => {
     // API call
