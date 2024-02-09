@@ -16,7 +16,7 @@ const Register = (props) => {
     const { name, email, password } = createuser;
     try {
       const response = await fetch(
-        `https://inotebookserver-8bgsn8l58-nitin-patils-projects.vercel.app/`,
+        `http://localhost:5000/api/auth/createuser/`,
         {
           method: "POST",
           headers: {
