@@ -16,7 +16,7 @@ const Register = (props) => {
     const { name, email, password } = createuser;
     try {
       const response = await fetch(
-        `https://inotebook-backend-flax.vercel.app/api/auth/createuser/`,
+        `https://inotebook-backend-fug3.onrender.com/api/auth/createuser/`,
         {
           method: "POST",
           headers: {
