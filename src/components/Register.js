@@ -16,7 +16,7 @@ const Register = (props) => {
     const { name, email, password } = createuser;
     try {
       const response = await fetch(
-        `https://inotebook-backend-fug3.onrender.com/api/auth/createuser/`,
+        `https://backend-cncn.onrender.com/api/auth/createuser/`,
         {
           method: "POST",
           headers: {
