@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import VideoItems from "./VideoItems";
 
 const Header = () => {
   return (
     <>
-      <div className="container">
-        <input type="search" className='my-5 p-3' style={{width:"40rem",marginLeft:"19rem", borderRadius:"5rem"}}/>
+      <div className="container my-2">
+        <VideoItems />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
