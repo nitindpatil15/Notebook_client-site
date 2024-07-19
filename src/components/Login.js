@@ -47,7 +47,7 @@ const Login = (props) => {
         <form onSubmit={handleSubmit} id="login">
           <div className="container">
             <div className="text-center mt-4">
-              <img className="img" src={loginimg} alt="login Image" />
+              <img className="img" src={loginimg} alt="login done" />
             </div>
             <h5 className="text-center text-primary mb-4">Login</h5>
 

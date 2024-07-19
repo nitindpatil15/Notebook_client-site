@@ -26,9 +26,6 @@ function App() {
       <NoteState showAlert={showAlert}>
         <Router>
           <Navbar title="iNotebook" showAlert={showAlert} />
-          <marquee direction="left" className="text-secondary bg-light">
-            Thanks for Visiting iNotebook ! Feel free to explore and start creating your notes. Check About page for Information.
-          </marquee>
           <Alert alert={alert}/>
           <div className="container">
             <Routes>
